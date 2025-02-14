@@ -1,0 +1,1 @@
+In React Router Dom v6, using the `useParams()` hook inside a component that's not directly a child of a route element can lead to unexpected behavior.  The `params` object might be undefined or contain stale data if the component is rendered outside of the route's rendering context.  This often manifests as incorrect or missing data based on the route parameters.
